@@ -1,0 +1,4 @@
+17 seventeen
+10 ten
+12 twelve
+15 %%^*(
