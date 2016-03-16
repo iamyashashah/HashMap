@@ -1,4 +1,16 @@
-17 seventeen
+0 zero
+1 one
+35 thirtyfive
+2 two
+3 three
+67 sixtyseven
+8 eight
+9 nine
+78 seveneight
 10 ten
 12 twelve
 15 %%^*(
+45 fortyfive
+17 seventeen
+56 fivesix
+90 ninty

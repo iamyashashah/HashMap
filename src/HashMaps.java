@@ -7,13 +7,19 @@ public class HashMaps {
 	static int number;
 	static String value;
 	static HashMap<Integer, String> myMap = new HashMap<Integer, String>();
-	static File file = new File("test2.txt");
+	static File file = new File("hashMapfile.txt");
+	static int i = 0;
 
 	public static void main(String[] args) {
 
 		Read();
+		System.out.println("Enter how many value you want to store :");
+		int number_value= sc.nextInt();
+		while(i < number_value)
+		{
 		System.out.println("Enter a key :");
 		number = sc.nextInt();
+	
 		if(myMap.containsKey(number))
 		{
 			System.out.println(myMap.get(number));
@@ -26,7 +32,9 @@ public class HashMaps {
 			myMap.put(number, value); //Mapping the value
 			//System.out.println(myMap.get(number));//Testing purpose
 		}
+	i++;
 		Write();
+		}
 
 	}
 	public static void Read() 
